@@ -5,7 +5,7 @@ import FlipMove from 'react-flip-move';
 
 function ListItems(props) {
 	const items = props.items;
-	const ListItems = items.map((item) => {
+	const listItems = items.map((item) => {
 		return (
 			<div className='list' key={item.key}>
 				<p>
@@ -32,7 +32,7 @@ function ListItems(props) {
 	return (
 		<div>
 			<FlipMove duration={500} easing='ease-in-out'>
-				{ListItems}
+				{listItems}
 			</FlipMove>
 		</div>
 	);
