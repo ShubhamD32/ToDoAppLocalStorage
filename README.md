@@ -1,4 +1,4 @@
-#**Live URL : https://ShubhamD32.github.io/ToDoAppLocalStorage**
+# **Live URL : https://ShubhamD32.github.io/ToDoAppLocalStorage**
 
 This is a To-Do list application made using React. This is one of the numerous applications that I built while I was learning React JS.
 
